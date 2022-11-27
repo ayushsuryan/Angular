@@ -33,13 +33,16 @@ header{
   display: flex;
   align-items: center;
 }
-.menu-brand-mobile{
+.btn-brand-mobile{
   display: none;
 }
 .hamburger{
   display: none;
 }
-
+.menu-brand-mobile{
+  display: none;
+  text-align: center;
+}
 
 @media screen and (max-width: 1200px){
   header{
@@ -68,14 +71,25 @@ header{
     font-weight: 500;
     font-size: 26px;
   }
-  .menu-brand-mobile{
+  .btn-brand-mobile{
     display: grid;
     grid-template-columns: repeat(2,auto);
     align-items: center;
     gap:15px;
   }
-  .menu-brand-mobile>button{
+  .btn-brand-mobile>button{
     font-size: small;
   }
-
+  .menu-brand-mobile{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    align-items: center;
+    gap:10px;
+  }
+  .menu-brand-mobile>a {
+    text-decoration: none;
+    font-size: small;
+    color: gray;
+  }
 }

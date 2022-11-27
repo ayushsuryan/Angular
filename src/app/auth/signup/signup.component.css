@@ -18,10 +18,17 @@ section{
   height: 100%;
 }
 .card-visuals{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: url('src/assets/IMG_signup_card.jpeg');
-  background-size: auto 100%;
   background-position-x: center;
+  background-size: cover;
   border-radius: 15px 0px 0px 15px;
+}
+.brand-auth>span{
+  font-weight: 500;
+  font-size: 26px;
 }
 form{
   display: grid;

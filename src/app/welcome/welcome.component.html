@@ -15,9 +15,17 @@
     <button routerLink="/auth/login" class="m-1 btn btn-light">Login</button>
     <button routerLink="/auth/signup" class="m-1 btn btn-primary signup-btn">Signup</button>
   </div>
-  <div class="menu-brand-mobile">
+  <div class="btn-brand-mobile">
     <button routerLink="/auth/login" class="m-1 btn btn-light">Login</button>
     <button routerLink="/auth/signup" class="m-1 btn btn-primary signup-btn">Signup</button>
   </div>
-
 </header>
+<section>
+  <div *ngIf="toggleOpen" class="menu-brand-mobile">
+    <a  href="#">Features</a>
+    <a  href="#">Services</a>
+    <a  href="#">About</a>
+    <a  href="#">Pricing</a>
+    <a  href="#">Contact Us</a>
+  </div>
+</section>
