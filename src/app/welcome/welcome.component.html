@@ -1,3 +1,28 @@
-<button routerLink="/auth/login" class="btn btn-primary m-3">Login</button>
-<button routerLink="/auth/signup" class="btn btn-secondary m-3">Signup</button>
+<header>
+  <h3 class="m-3">LOGO</h3>
+  <div class="menu m-2">
+    <a class="m-3" href="#">Home</a>
+    <a class="m-3" href="#">About</a>
+    <a class="m-3" href="#">Contact</a>
+  </div>
+
+  <div class="btn">
+    <button routerLink="/auth/login" class="btn btn-primary m-2">Login</button>
+    <button routerLink="/auth/signup" class="btn btn-secondary m-2">Signup</button>
+  </div>
+
+  <div class="hamburger">
+    <i (click)="clickEvent()" class="bi bi-list m-3"></i>
+  </div>
+
+</header>
+<section>
+  <div *ngIf="toggleOpen" class="mobile-menu">
+    <a class="m-3" href="#">Home</a>
+    <a class="m-3" href="#">About</a>
+    <a class="m-3" href="#">Contact</a>
+    <a class="m-3" href="#">Login</a>
+    <a class="m-3" href="#">Signup</a>
+  </div>
+</section>
 
