@@ -12,4 +12,10 @@ export class WelcomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleOpen=false;
+
+  clickEvent(){
+    this.toggleOpen=!this.toggleOpen;
+  }
+
 }
