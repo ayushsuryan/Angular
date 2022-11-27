@@ -47,19 +47,18 @@ form>button{
 }
 @media screen and (max-width: 870px) {
   section{
-    margin:5% 0%;
+    margin:0;
   }
   .card-container{
-    height: 100%;
+    border-top: 5px solid #6cacfc;
+    border-radius: 0px 0px 20px 20px;
+    height: auto;
     width: 90%;
     flex-direction: column ;
+    justify-content: space-around;
   }
   .card-visuals{
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position-x: center;
+    display: none;
   }
   .card-form{
     height: 100%;
