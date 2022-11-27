@@ -12,10 +12,11 @@ export class WelcomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toggleOpen=false;
+    toggleOpen=false;
 
-  clickEvent(){
+  onHamburger(){
     this.toggleOpen=!this.toggleOpen;
+    console.log(this.toggleOpen)
   }
 
 }
