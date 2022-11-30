@@ -12,4 +12,11 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleStatus=false;
+
+  toggle(){
+    this.toggleStatus=!this.toggleStatus;
+    console.log(this.toggleStatus)
+  }
+
 }
