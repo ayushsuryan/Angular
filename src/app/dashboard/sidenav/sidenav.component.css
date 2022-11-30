@@ -1,0 +1,33 @@
+.sidenav-main-container{
+    background-color: #FFFEFE;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    filter: drop-shadow(2px 0rem 6px #e3e3e3);
+
+}
+.logo-brand>span{
+    padding: 0 5px;
+    font-weight: 700;
+    font-size: 28px;
+}
+.logo-brand{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+}
+.sidenav-avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-name{
+    font-size: larger;
+    font-weight: 500;
+}
+.profile-role{
+    font-size: small;
+}

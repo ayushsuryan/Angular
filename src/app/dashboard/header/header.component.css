@@ -1,0 +1,19 @@
+header{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    box-shadow: 0 1px 5px 0px #d0d0d0;
+}
+header>i{
+    color: black;
+    font-size: 25px ;
+    font-weight: 900;
+    cursor:pointer;
+}
+.avatar>i{
+    font-size: 25px;
+}
+
