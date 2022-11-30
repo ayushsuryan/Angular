@@ -16,7 +16,14 @@ export class DashboardComponent implements OnInit {
 
   toggle(){
     this.toggleStatus=!this.toggleStatus;
-    console.log(this.toggleStatus)
+  }
+  getSidenavDisplay(){
+    if(!this.toggleStatus){
+      return 'none'
+    }
+    else{
+      return "block"
+    }
   }
 
 }
