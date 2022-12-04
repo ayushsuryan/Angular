@@ -1,0 +1,18 @@
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+.card-body{
+    display: grid;
+    grid-template-rows: auto 2fr 50px;
+}
+.card>img{
+    padding: 5%;
+    aspect-ratio: 1 / 1;
+}
+.btn{
+    float:right;
+    position: relative;
+    bottom: 0;
+}
