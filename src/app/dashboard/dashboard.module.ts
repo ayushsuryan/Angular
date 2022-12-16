@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { TicketComponent } from './ticket/ticket.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
-import { ProductsComponent } from './home/products/products.component';
 
 
 @NgModule({
@@ -17,7 +16,6 @@ import { ProductsComponent } from './home/products/products.component';
     TicketComponent,
     SidenavComponent,
     HeaderComponent,
-    ProductsComponent
   ],
   imports: [
     CommonModule,
